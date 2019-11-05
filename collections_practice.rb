@@ -50,7 +50,8 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.each_with_index.collect {|element, index| element << "s" unless index == 1 (element)}
+  arr.each_with_index.collect {|element, index| element << "s" unless index == 1}
+  arr
 end
 
 
