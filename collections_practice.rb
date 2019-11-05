@@ -52,10 +52,11 @@ end
 def add_s(arr)
   s_words = []
   arr.each do |word|
-    if word[-1] == "s"
+    if word[1]
       s_words << word
     else
-      s_words << word + "s"
+      word + "s"
+      s_words << word
     end
   end
 end
