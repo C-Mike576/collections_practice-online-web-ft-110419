@@ -59,6 +59,7 @@ def add_s(arr)
       s_words << word
     end
   end
+  s_words
 end
     
 
