@@ -50,17 +50,7 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  s_words = []
-  arr.each do |word|
-    if word[1]
-      s_words << word
-    else
-      word << "s"
-      s_words << word
-    end
-  end
-  s_words
-end
+  
     
 
 
