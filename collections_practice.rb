@@ -52,6 +52,7 @@ end
 def add_s(arr)
   arr.each_with_index.collect{|element, index| index != 1 element << "s" }
 end
+end
 
 
 
