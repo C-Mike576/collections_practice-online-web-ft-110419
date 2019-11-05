@@ -42,6 +42,7 @@ def find_a(arr)
       a_words << word
     end
   end
+  a_words
 end
 
 
