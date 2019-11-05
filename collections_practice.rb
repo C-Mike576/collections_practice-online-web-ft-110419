@@ -49,11 +49,17 @@ def sum_array(arr)
   arr.inject { |a, b| a+b }
 end
 
-
-
-
-
-
+def add_s(arr)
+  s_words = []
+  arr.each do |word|
+    if word[-1] == "s"
+      s_words << word
+    else
+      s_words << word + "s"
+    end
+  end
+end
+    
 
 
 
