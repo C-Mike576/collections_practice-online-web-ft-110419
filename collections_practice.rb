@@ -29,6 +29,7 @@ end
 def kesha_maker(arr)
   new_arr = []
   arr.each do |word|
+    
     new_arr << word[2] = "$"
   end
   p new_arr
