@@ -31,5 +31,5 @@ def kesha_maker(arr)
   arr.each do |word|
     new_arr << word[2] = "$"
   end
-  new_arr
+  p new_arr
 end
