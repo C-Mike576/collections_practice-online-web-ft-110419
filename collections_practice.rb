@@ -32,5 +32,23 @@ def kesha_maker(arr)
     word[2] = "$"
     new_arr << word
   end
-  p new_arr
+  new_arr
 end
+
+def find_a(arr)
+  arr.map do |word|
+    word.start_with?("a")
+  end
+  arr
+end
+
+
+
+
+
+
+
+
+
+
+
