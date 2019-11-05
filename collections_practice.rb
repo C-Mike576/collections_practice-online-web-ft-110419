@@ -36,8 +36,11 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
+  a_words = []
   arr.collect do |word|
-    word.start_with?("a")
+    if word.start_with?("a")
+      a_words << word
+    end
   end
 end
 
