@@ -55,7 +55,7 @@ def add_s(arr)
     if word[1]
       s_words << word
     else
-      word + "s"
+      word << "s"
       s_words << word
     end
   end
